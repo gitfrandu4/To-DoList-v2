@@ -1,3 +1,16 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "title": "Comprar el pan",
+      "id": 3
+    },
+    {
+      "title": "Involucrarme en la revolución obrera",
+      "id": 4
+    },
+    {
+      "title": "Lavarme los dientes",
+      "id": 5
+    }
+  ]
 }

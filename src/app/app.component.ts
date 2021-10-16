@@ -32,6 +32,7 @@ export class AppComponent {
         });
       this.title = ""
       this.newTask = { title: "" } // Necesario 'reiniciar' el objeto
+      this.notificationService.success("La tarea se agregado a la lista correctamente", "Tarea agregada");
     }
   }
 
