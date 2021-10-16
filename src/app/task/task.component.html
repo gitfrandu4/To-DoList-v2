@@ -1,0 +1,6 @@
+<div class="form-group" >
+    <input type="text" [(ngModel)]="title" (keydown.enter)="save()" class="form-control mb-2" [readOnly]="readOnly">
+    <button type="button" (click)="save()" [style.display]="readOnly ? 'none' : ''" class="btn btn-primary">Guardar</button>
+    <button type="button" (click)="edit()" [style.display]="readOnly ? '' : 'none'" class="btn btn-secondary">Editar</button>
+    <button type="button" (click)="delete()" class="btn btn-danger ml-2">Borrar</button>
+  </div>
